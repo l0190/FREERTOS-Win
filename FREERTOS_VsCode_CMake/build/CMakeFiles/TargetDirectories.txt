@@ -1,3 +1,0 @@
-C:/Users/amin/Desktop/git/FREERTOS-Windows/FREERTOS_VsCode_CMake/build/CMakeFiles/FREERTOS_Project.dir
-C:/Users/amin/Desktop/git/FREERTOS-Windows/FREERTOS_VsCode_CMake/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/amin/Desktop/git/FREERTOS-Windows/FREERTOS_VsCode_CMake/build/CMakeFiles/ZERO_CHECK.dir

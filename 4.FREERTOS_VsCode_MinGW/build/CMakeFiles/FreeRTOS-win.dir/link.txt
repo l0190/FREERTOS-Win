@@ -1,0 +1,3 @@
+D:\tools\code\c\Cmake\bin\cmake.exe -E rm -f CMakeFiles\FreeRTOS-win.dir/objects.a
+D:\tools\code\c\MinGW\bin\ar.exe cr CMakeFiles\FreeRTOS-win.dir/objects.a @CMakeFiles\FreeRTOS-win.dir\objects1.rsp
+D:\tools\code\c\MinGW\bin\gcc.exe   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -Wl,--whole-archive CMakeFiles\FreeRTOS-win.dir/objects.a -Wl,--no-whole-archive  -o FreeRTOS-win.exe -Wl,--out-implib,libFreeRTOS-win.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FreeRTOS-win.dir\linklibs.rsp

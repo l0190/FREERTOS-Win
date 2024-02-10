@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\amin\Desktop\git\FREERTOS-Win\FREERTOS_VsCode_CMake\build\CMakeFiles\4855a6884452bf06729df8cc1141cf7c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{16426A4D-AB4E-3867-9A31-98C73EBD3615}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

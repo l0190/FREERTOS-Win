@@ -1,0 +1,87 @@
+[
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\src\\main.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\src\\main.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/src/main.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\croutine.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\croutine.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/croutine.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\event_groups.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\event_groups.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/event_groups.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\list.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\list.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/list.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\portable\\WinMM\\port.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\portable\\WinMM\\port.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/portable/WinMM/port.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\portable\\heap_4.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\portable\\heap_4.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/portable/heap_4.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\queue.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\queue.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/queue.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\tasks.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\tasks.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/tasks.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\FreeRTOS\\timers.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\FreeRTOS\\timers.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/FreeRTOS/timers.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\lib\\libenjoy\\src\\libenjoy.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\lib\\libenjoy\\src\\libenjoy.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/lib/libenjoy/src/libenjoy.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\lib\\libenjoy\\src\\libenjoy_win32.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\lib\\libenjoy\\src\\libenjoy_win32.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/lib/libenjoy/src/libenjoy_win32.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\src\\DATALINK\\mavlinkSend.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\src\\DATALINK\\mavlinkSend.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/src/DATALINK/mavlinkSend.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\src\\DATALINK\\udpServer.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\src\\DATALINK\\udpServer.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/src/DATALINK/udpServer.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\src\\RC_INPUT\\JoyStick.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\src\\RC_INPUT\\JoyStick.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/src/RC_INPUT/JoyStick.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\src\\TASK\\qgcDataLinkTask.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\src\\TASK\\qgcDataLinkTask.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/src/TASK/qgcDataLinkTask.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\src\\TASK\\rcInputTask.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\src\\TASK\\rcInputTask.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/src/TASK/rcInputTask.c"
+},
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FreeRTOS-win.dir/includes_C.rsp   -Wno-pointer-to-int-cast -Wno-address-of-packed-member -g   -std=gnu11 -o CMakeFiles\\FreeRTOS-win.dir\\src\\TASK\\simulatorDataLinkTask.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\4.FREERTOS_VsCode_MinGW\\src\\TASK\\simulatorDataLinkTask.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/src/TASK/simulatorDataLinkTask.c"
+}
+]
