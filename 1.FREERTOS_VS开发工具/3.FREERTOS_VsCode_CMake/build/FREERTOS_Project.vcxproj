@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3EDFBC48-A9B2-34F0-89BC-A1F9EA823D13}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>FREERTOS_Project</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">FREERTOS_Project.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">FREERTOS_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">FREERTOS_Project.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">FREERTOS_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">FREERTOS_Project.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">FREERTOS_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">FREERTOS_Project.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">FREERTOS_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/Debug/FREERTOS_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/Debug/FREERTOS_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/Release/FREERTOS_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/Release/FREERTOS_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/MinSizeRel/FREERTOS_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/MinSizeRel/FREERTOS_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\include;D:\tools\code\c\FreeRTOS\FreeRTOS\include;D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/RelWithDebInfo/FREERTOS_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/RelWithDebInfo/FREERTOS_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+D:\tools\code\c\Cmake\bin\cmake.exe -SC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake -BC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build --check-stamp-file C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+D:\tools\code\c\Cmake\bin\cmake.exe -SC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake -BC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build --check-stamp-file C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+D:\tools\code\c\Cmake\bin\cmake.exe -SC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake -BC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build --check-stamp-file C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+D:\tools\code\c\Cmake\bin\cmake.exe -SC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake -BC:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build --check-stamp-file C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_VsCode_CMake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\tools\code\c\Cmake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\src\main.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\croutine.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\event_groups.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\list.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\queue.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\stream_buffer.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\tasks.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\timers.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MemMang\heap_3.c" />
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW\port.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\amin\Desktop\git\FREERTOS-Win\3.FREERTOS_VsCode_CMake\build\ZERO_CHECK.vcxproj">
+      <Project>{C2803C1C-C6EC-3E6A-88BC-B6F8FC58452C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,3 +1,0 @@
-C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build/CMakeFiles/edit_cache.dir
-C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build/CMakeFiles/FreeRTOS-win.dir
-C:/Users/amin/Desktop/git/FREERTOS-Win/4.FREERTOS_VsCode_MinGW/build/CMakeFiles/rebuild_cache.dir
