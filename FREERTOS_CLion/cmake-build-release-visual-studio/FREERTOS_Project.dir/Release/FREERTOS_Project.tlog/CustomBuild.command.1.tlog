@@ -1,0 +1,10 @@
+^C:\USERS\AMIN\DESKTOP\TEST\FREERTOS_CLION\CMAKELISTS.TXT
+setlocal
+"D:\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/amin/Desktop/test/FREERTOS_CLion -BC:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio --check-stamp-file C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

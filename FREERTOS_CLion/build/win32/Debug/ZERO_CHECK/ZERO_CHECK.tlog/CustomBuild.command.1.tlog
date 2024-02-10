@@ -1,0 +1,10 @@
+^C:\USERS\AMIN\DESKTOP\GIT\FREERTOS-WINDOWS\FREERTOS_CLION\BUILD\CMAKEFILES\BB3479B40918F8D99BE6B271B26A1A12\GENERATE.STAMP.RULE
+setlocal
+D:\tools\code\c\Cmake\bin\cmake.exe -SC:/Users/amin/Desktop/git/FREERTOS-Windows/FREERTOS_CLion -BC:/Users/amin/Desktop/git/FREERTOS-Windows/FREERTOS_CLion/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/amin/Desktop/git/FREERTOS-Windows/FREERTOS_CLion/build/FREERTOS_Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

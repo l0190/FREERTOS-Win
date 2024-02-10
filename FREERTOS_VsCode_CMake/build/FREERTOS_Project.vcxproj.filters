@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\amin\Desktop\git\FREERTOS-Windows\FREERTOS_VsCode_CMake\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\croutine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\event_groups.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\stream_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\tasks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MemMang\heap_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tools\code\c\FreeRTOS\FreeRTOS\portable\MSVC-MingW\port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\amin\Desktop\git\FREERTOS-Windows\FREERTOS_VsCode_CMake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2EF23FB2-E92C-37A3-8604-D77EFB22F683}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

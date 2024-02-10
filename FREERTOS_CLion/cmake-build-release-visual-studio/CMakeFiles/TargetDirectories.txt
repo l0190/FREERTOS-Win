@@ -1,0 +1,3 @@
+C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/FREERTOS_Project.dir
+C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/ALL_BUILD.dir
+C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/ZERO_CHECK.dir

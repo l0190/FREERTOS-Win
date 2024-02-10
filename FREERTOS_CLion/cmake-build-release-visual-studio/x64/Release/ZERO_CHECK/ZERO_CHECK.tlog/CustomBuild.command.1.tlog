@@ -1,0 +1,10 @@
+^C:\USERS\AMIN\DESKTOP\TEST\FREERTOS_CLION\CMAKE-BUILD-RELEASE-VISUAL-STUDIO\CMAKEFILES\0344ECA46490CE2F1EEE4F4D287284DD\GENERATE.STAMP.RULE
+setlocal
+"D:\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/amin/Desktop/test/FREERTOS_CLion -BC:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/FREERTOS_Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
