@@ -63,10 +63,10 @@ RM = D:\tools\code\c\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\amin\Desktop\git\FREERTOS-Win\4.FREERTOS_VsCode_MinGW
+CMAKE_SOURCE_DIR = C:\Users\amin\Desktop\git\FREERTOS-Win\2.FREERTOS_MinGW
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\amin\Desktop\git\FREERTOS-Win\4.FREERTOS_VsCode_MinGW\build
+CMAKE_BINARY_DIR = C:\Users\amin\Desktop\git\FREERTOS-Win\2.FREERTOS_MinGW\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/FREERTOS_Project.dir/clean
 CMakeFiles/FREERTOS_Project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FREERTOS_Project.dir\build.make CMakeFiles/FREERTOS_Project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FREERTOS_Project.dir\build.make CMakeFiles/FREERTOS_Project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\amin\Desktop\git\FREERTOS-Win\4.FREERTOS_VsCode_MinGW\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target FREERTOS_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\amin\Desktop\git\FREERTOS-Win\2.FREERTOS_MinGW\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target FREERTOS_Project"
 .PHONY : CMakeFiles/FREERTOS_Project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FREERTOS_Project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\amin\Desktop\git\FREERTOS-Win\4.FREERTOS_VsCode_MinGW\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\amin\Desktop\git\FREERTOS-Win\2.FREERTOS_MinGW\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FREERTOS_Project.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\amin\Desktop\git\FREERTOS-Win\4.FREERTOS_VsCode_MinGW\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\amin\Desktop\git\FREERTOS-Win\2.FREERTOS_MinGW\build\CMakeFiles 0
 .PHONY : CMakeFiles/FREERTOS_Project.dir/rule
 
 # Convenience name for target.

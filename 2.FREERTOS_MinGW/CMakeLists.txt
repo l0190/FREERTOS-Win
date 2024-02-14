@@ -13,19 +13,20 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/build)#设置库文件输出目录
 set(SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c)
 # 设置变量FREERTOS_DIR的值
 set(FREERTOS_DIR "D:/tools/code/c/FreeRTOS/FreeRTOS")
+
 #输出验证FREERTOS_DIR的值
 message("Value of FREERTOS_DIR: ${FREERTOS_DIR}")
 
 #将指定目录下的所有.c文件载入FREERTOS_SOURCES
-FILE(GLOB FREERTOS_SOURCES ${FREERTOS_DIR}/*.c)# 递归遍历目录,获取所有的c文件
-list(APPEND FREERTOS_SOURCES "${FREERTOS_DIR}/portable/MemMang/heap_3.c")
-list(APPEND FREERTOS_SOURCES "${FREERTOS_DIR}/portable/MSVC-MingW/port.c")
+FILE(GLOB FREERTOS_SOURCES ${FREERTOS_DIR}/Source/*.c)# 递归遍历目录,获取所有的c文件
+list(APPEND FREERTOS_SOURCES "${FREERTOS_DIR}/Source/portable/MemMang/heap_3.c")
+list(APPEND FREERTOS_SOURCES "${FREERTOS_DIR}/Source/portable/MSVC-MingW/port.c")
 message("Value of FREERTOS_SOURCES: ${FREERTOS_SOURCES}")
 # 添加头文件路径
 include_directories(
         include
-        ${FREERTOS_DIR}/include/
-        ${FREERTOS_DIR}/portable/MSVC-MingW/
+        ${FREERTOS_DIR}/Source/include/
+        ${FREERTOS_DIR}/Source/portable/MSVC-MingW/
         ${CMAKE_CURRENT_SOURCE_DIR}/include/
 )
 
