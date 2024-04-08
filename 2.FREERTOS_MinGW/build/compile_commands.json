@@ -1,52 +1,61 @@
 [
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\src\\main.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\2.FREERTOS_MinGW\\src\\main.c",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\src\\main.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\2.FREERTOS_MinGW\\src\\main.c",
   "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/src/main.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\croutine.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\croutine.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/croutine.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\croutine.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\croutine.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\croutine.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\event_groups.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\event_groups.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/event_groups.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\event_groups.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\event_groups.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\event_groups.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\list.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\list.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/list.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\list.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\list.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\list.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\queue.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\queue.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/queue.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\queue.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\queue.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\queue.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\stream_buffer.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\stream_buffer.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/stream_buffer.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\stream_buffer.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\stream_buffer.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\stream_buffer.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\tasks.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\tasks.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/tasks.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\tasks.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\tasks.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\tasks.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\timers.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\timers.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/timers.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\timers.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\timers.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\timers.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MemMang\\heap_3.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MemMang\\heap_3.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MemMang\\heap_3.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MemMang\\heap_3.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MemMang\\heap_3.c"
 },
+
 {
   "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/2.FREERTOS_MinGW/build",
-  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  @CMakeFiles/FREERTOS_Project.dir/includes_C.rsp -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MSVC-MingW\\port.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MSVC-MingW\\port.c",
-  "file": "D:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW/port.c"
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/include -ID:/tools/code/c/FreeRTOS/FreeRTOS/Source/portable/MSVC-MingW  -g   -o CMakeFiles\\FREERTOS_Project.dir\\D_\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MSVC-MingW\\port.c.obj   -c D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MSVC-MingW\\port.c",
+  "file": "D:\\tools\\code\\c\\FreeRTOS\\FreeRTOS\\Source\\portable\\MSVC-MingW\\port.c"
 }
 ]

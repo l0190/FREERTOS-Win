@@ -1,0 +1,55 @@
+[
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\croutine.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\croutine.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/croutine.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\event_groups.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\event_groups.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/event_groups.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\list.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\list.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/list.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\queue.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\queue.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/queue.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\stream_buffer.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\stream_buffer.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/stream_buffer.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\tasks.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\tasks.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/tasks.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\timers.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\timers.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/timers.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../include -I../ -I../portable/MSVC-MingW  -g   -o CMakeFiles\\freertos_kernel.dir\\portable\\MemMang\\heap_4.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\portable\\MemMang\\heap_4.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/portable/MemMang/heap_4.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I../portable/MSVC-MingW -I../include -I../  -g   -o portable\\CMakeFiles\\freertos_kernel_port.dir\\MSVC-MingW\\port.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\编译FreeRTOS-Kernel\\portable\\MSVC-MingW\\port.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/portable/MSVC-MingW/port.c"
+}
+]

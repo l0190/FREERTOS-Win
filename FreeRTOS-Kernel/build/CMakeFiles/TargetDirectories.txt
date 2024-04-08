@@ -1,0 +1,6 @@
+C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build/CMakeFiles/rebuild_cache.dir
+C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build/CMakeFiles/freertos_kernel.dir
+C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build/CMakeFiles/edit_cache.dir
+C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build/portable/CMakeFiles/freertos_kernel_port.dir
+C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build/portable/CMakeFiles/edit_cache.dir
+C:/Users/amin/Desktop/git/FREERTOS-Win/编译FreeRTOS-Kernel/build/portable/CMakeFiles/rebuild_cache.dir

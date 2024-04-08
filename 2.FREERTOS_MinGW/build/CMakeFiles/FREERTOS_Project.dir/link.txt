@@ -1,3 +1,0 @@
-D:\tools\code\c\Cmake\bin\cmake.exe -E rm -f CMakeFiles\FREERTOS_Project.dir/objects.a
-D:\tools\code\c\MinGW\bin\ar.exe cr CMakeFiles\FREERTOS_Project.dir/objects.a @CMakeFiles\FREERTOS_Project.dir\objects1.rsp
-D:\tools\code\c\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\FREERTOS_Project.dir/objects.a -Wl,--no-whole-archive  -o FREERTOS_Project.exe -Wl,--out-implib,libFREERTOS_Project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FREERTOS_Project.dir\linklibs.rsp

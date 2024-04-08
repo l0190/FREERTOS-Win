@@ -1,0 +1,12 @@
+# ninja log v5
+3	924	7341109633016429	CMakeFiles/freertos_kernel.dir/croutine.c.obj	d58c9cb4c904a351
+20	1039	7341109634243388	CMakeFiles/freertos_kernel.dir/event_groups.c.obj	b8f20dc433b4aa3a
+54	1465	7341109638499380	CMakeFiles/freertos_kernel.dir/queue.c.obj	dde456deb5f075b6
+91	1958	7341109642189428	CMakeFiles/freertos_kernel.dir/tasks.c.obj	55f63b16beb1de71
+37	1166	7341109635477481	CMakeFiles/freertos_kernel.dir/list.c.obj	ac75e4a563b82038
+72	1306	7341109636905324	CMakeFiles/freertos_kernel.dir/stream_buffer.c.obj	9f3ae07ee11687de
+157	1714	7341109640999646	portable/CMakeFiles/freertos_kernel_port.dir/MSVC-MingW/port.c.obj	6b97aa28145b3558
+110	1588	7341109639731935	CMakeFiles/freertos_kernel.dir/timers.c.obj	2dc340ed56f8df87
+128	1969	7341109643547044	CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.obj	55ad15da7006bf0a
+1715	2154	7341109645392792	portable/libfreertos_kernel_port.a	e3392fa55f229061
+2154	2378	7341109647624613	libfreertos_kernel.a	13c0e41630cbe983

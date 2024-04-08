@@ -1,0 +1,4 @@
+MingW编译FreeRTOS-Kernel的关键:
+1.根据文档和硬件情况生成FreeRTOSConfig.h文件
+2.根据硬件情况设置合适FREERTOS_PORT(从portable中选择所有适配的硬件,通过portable文件夹下的CMakeLists.txt查看硬件对应的参数应该如何设置)和设置FREERTOS_CONFIG_FILE_DIRECTORY
+3.启动CMakeList.txt编译文件

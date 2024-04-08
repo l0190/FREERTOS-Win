@@ -1,0 +1,3 @@
+C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_MinGW_linker/build/CMakeFiles/rebuild_cache.dir
+C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_MinGW_linker/build/CMakeFiles/FREERTOS_Project.dir
+C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_MinGW_linker/build/CMakeFiles/edit_cache.dir

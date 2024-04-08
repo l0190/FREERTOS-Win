@@ -1,0 +1,13 @@
+[
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_MinGW_linker/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I.././include  -g   -o CMakeFiles\\FREERTOS_Project.dir\\src\\port.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\3.FREERTOS_MinGW_linker\\src\\port.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_MinGW_linker/src/port.c"
+},
+
+{
+  "directory": "C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_MinGW_linker/build",
+  "command": "D:\\tools\\code\\c\\MinGW\\bin\\gcc.exe  -I.././include  -g   -o CMakeFiles\\FREERTOS_Project.dir\\main.c.obj   -c C:\\Users\\amin\\Desktop\\git\\FREERTOS-Win\\3.FREERTOS_MinGW_linker\\main.c",
+  "file": "C:/Users/amin/Desktop/git/FREERTOS-Win/3.FREERTOS_MinGW_linker/main.c"
+}
+]
